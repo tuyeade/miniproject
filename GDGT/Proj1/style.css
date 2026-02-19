@@ -7,8 +7,6 @@ body {
     align-items: center;
     height: 100vh;
 }
-
-/* Card container */
 .container {
     background: #ffffff;
     padding: 45px;
@@ -19,8 +17,6 @@ body {
 
     animation: fadeIn 1.2s ease-in-out;
 }
-
-/* Modern button */
 button {
     padding: 12px 25px;
     font-size: 16px;
@@ -43,8 +39,6 @@ button:hover {
 button:active {
     transform: scale(0.95);
 }
-
-/* Smooth animation */
 @keyframes fadeIn {
     from {
         opacity: 0;
@@ -55,3 +49,4 @@ button:active {
         transform: translateY(0);
     }
 }
+
