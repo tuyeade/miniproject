@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="style3.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1>My Portfolio</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#work">Work</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <h2>Hello, I'm Trufat Admasu</h2>
+        <p id="typing-text"></p>
+        <a href="#" class="btn" onclick="downloadCV()">Download CV</a>
+    </section>
+
+    <!-- About -->
+    <section id="about">
+        <h2>About Me</h2>
+        <img src="profile.jpg" alt="Profile Photo" width="150">
+        <p>I am student at AASTU. I really like to code.</p>
+    </section>
+
+    <!-- Work -->
+    <section id="work">
+        <h2>My Projects</h2>
+        <div class="project">Project 1 - Simple Website</div>
+        <div class="project">Project 2 - Patient managment  System</div>
+    </section>
+
+    <!-- Services -->
+    <section id="services">
+        <h2>Services</h2>
+        <ul>
+            <li>Web Design</li>
+            <li>Frontend Development</li>
+            <li>Responsive Websites</li>
+        </ul>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact">
+   
+    <h2>Contact Me</h2>
+
+    <input type="text" id="userName" placeholder="Your Name">
+    <br><br>
+
+    <textarea id="userMessage" placeholder="Write your message here..."></textarea>
+    <br><br>
+
+    <button onclick="sendMessage()">Send Message</button>
+</div>
+
+    </section>
+
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2026 TUYEADE | All Rights Reserved</p>
+    </footer>
+
+    <script src="script3.js"></script>
+</body>
+</html>
