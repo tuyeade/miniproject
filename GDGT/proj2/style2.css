@@ -7,8 +7,6 @@ body {
     align-items: center;
     height: 100vh;
 }
-
-/* Glassmorphism container */
 .container {
     background: rgba(255, 255, 255, 0.1);
     backdrop-filter: blur(15px);
@@ -21,8 +19,6 @@ body {
 
     animation: slideUp 1s ease-out;
 }
-
-/* Modern gradient button */
 button {
     padding: 14px 30px;
     font-size: 16px;
@@ -44,8 +40,6 @@ button:hover {
 button:active {
     transform: scale(0.95);
 }
-
-/* Smooth entrance animation */
 @keyframes slideUp {
     from {
         opacity: 0;
@@ -56,3 +50,4 @@ button:active {
         transform: translateY(0);
     }
 }
+
